@@ -1,0 +1,34 @@
+{
+  "stages": [
+    {
+      "name": "anchor",
+      "learning_rate": 0.0005,
+      "epochs": 4,
+      "bias_retention": 0.02
+    },
+    {
+      "name": "own_reference",
+      "learning_rate": 0.0001,
+      "epochs": 4,
+      "bias_retention": 0.02
+    },
+    {
+      "name": "relaxed_bias",
+      "learning_rate": 0.0001,
+      "epochs": 4,
+      "bias_retention": 0.005
+    }
+  ],
+  "batch": 8,
+  "threads": 2,
+  "seeds": [
+    20261020,
+    20261021
+  ],
+  "arms": [
+    "q_only",
+    "bias_only",
+    "joint"
+  ],
+  "fit_count": 708
+}

@@ -3,29 +3,29 @@
 **Evidence-guided Responsibility and Bias Correction**  
 Supporting material for *ERBC: Evidence-Guided Estimation of AI Responsibility in Educational Interactions*.
 
-[Method](METHOD_GUIDE.md) · [Results](RESULTS.md) · [Data protocol](DATA_PROTOCOL.md) · [Run the checks](REPRODUCING.md)
+[Method](METHOD_GUIDE.md) · [Results](RESULTS.md) · [Data protocol](DATA_PROTOCOL.md) · [Run the experiments](REPRODUCING.md)
 
 ## From recorded activity to responsibility estimates
 
 ERBC links task requirements, operation records, and source evidence. Its final estimator combines a frozen evidence state with a responsibility update and a separate scalar correction.
 
-![ERBC architecture](architecture.svg)
+![ERBC architecture](architecture.png)
 
 ## Paper materials
 
-The repository contains selected implementation modules for data preparation, structured operation extraction, numerical baselines, ERBC, and the factorial correction study. Standalone evaluation and splitting utilities accompany the source modules, together with aggregate results and editable paper figures.
+The repository includes the final correction head, its three-stage training objective, numerical and API inference interfaces, fixed-membership evaluation, and the recorded group-split rule. Reference modules cover data preparation, operation extraction, baseline training, and the retained evidence chain. Examples connect training, checkpoint loading, prediction, and scoring.
 
 ## Quick start
 
 Python 3.10 or later; no third-party packages or GPU required.
 
 ```bash
-python -m unittest discover -v
+python -m unittest test_evaluate test_split_recipe test_runners.RunnerContracts -v
 python evaluate.py synthetic_scores.json
 python verify_files.py
 ```
 
-The example contains invented records. Its scores are a software check, not experimental evidence.
+The example contains invented records. For a complete CPU example of the final head, install `requirements.txt` and follow [training, prediction, and scoring](REPRODUCING.md). Synthetic examples check the software and are not reported experiment results.
 
 ## Reported results
 
@@ -43,14 +43,17 @@ The 148-unit collection was used during development and evaluation. The separate
 
 | File | Purpose |
 | :--- | :--- |
-| [Source snapshot](erbc_source_snapshot.zip) | 85 selected implementation modules, indexed in [SOURCE_INDEX.json](SOURCE_INDEX.json) |
-| [Figure sources](paper_figure_sources.zip) | Editable bilingual figure sources and vector assets |
-| `evaluate.py` | Validate and score a complete evaluation collection |
+| [Source snapshot](erbc_source_snapshot.zip) | 125 implementation and runtime modules, indexed in [SOURCE_INDEX.json](SOURCE_INDEX.json) |
+| [Paper figures](FIGURES.md) | English rendered figures |
+| `train_erbc.py`, `predict_erbc.py` | Train the final head and apply fixed checkpoints |
+| `run_numerical.py`, `run_api.py` | Numerical readout and API comparison interfaces |
+| `evaluate.py`, `score_predictions.py` | Join labels and score fixed evaluation collections |
+| [Input formats](INPUT_FORMATS.md), [implementation map](IMPLEMENTATION.md) | Schemas, commands, and source locations |
 | `split_recipe.py` | Reconstruct the recorded pre-admission group split from authorized metadata |
 | `test_*.py` | Synthetic tests of metric and splitting behavior |
 | `synthetic_scores.json` | Small runnable example with expected scores |
 | `split_counts.json` | Aggregate admission and collection counts |
-| `architecture.svg`, `mechanism.svg` | Editable vector diagrams |
+| [Result tables](RESULT_TABLES.md) | Three main comparisons from the manuscript |
 | `SHA256SUMS`, `verify_files.py` | Release-file integrity checks |
 
 ## Use and attribution

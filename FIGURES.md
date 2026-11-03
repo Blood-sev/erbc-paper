@@ -1,7 +1,29 @@
-# Figure sources
+# Paper figures
 
-[Back to overview](README.md)
+[Overview](README.md) | [Result tables](RESULT_TABLES.md)
 
-`architecture.svg` and `mechanism.svg` are directly editable vector figures. The archive [paper_figure_sources.zip](paper_figure_sources.zip) contains the bilingual TikZ sources, vector drawing helpers, and PDF/SVG assets for the paper figures. Figure 1 is synchronized with the November 2 manuscript revision.
+## 1. Operation-level and cognitive-unit aggregation
 
-TikZ compilation requires a TeX distribution with the packages named in each source. Chinese figures require suitable CJK fonts. The Python drawing scripts retain their historical file layout; adapt output paths in a separate working copy. The exported assets can be viewed without compiling the sources.
+![Operation and cognitive-unit aggregation](figure1_granularity.png)
+
+## 2. Record construction and collection flow
+
+![Record construction and collection flow](figure2_collection.png)
+
+## 3. Linked task records
+
+![Linked task records](figure3_records.png)
+
+## 4. A-B-C architecture
+
+![A-B-C architecture](architecture.png)
+
+## 5. Evidence state and correction branches
+
+![Evidence state and correction branches](mechanism.png)
+
+## 6. Upstream structure quality
+
+![Operation counts and role agreement](figure6_structure_quality.png)
+
+Figure 6 uses 141 available units for operation counts and 692 matched operations for role agreement. The reported kappa is model-reference agreement.

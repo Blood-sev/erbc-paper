@@ -20,7 +20,7 @@ Structured operation extraction and numerical B prediction are separate interfac
 
 ## Two corrections, one final readout
 
-![Frozen evidence state and separate correction branches](mechanism.svg)
+![Frozen evidence state and separate correction branches](mechanism.png)
 
 The frozen evidence state supplies responsibility distributions, contribution weights, a scalar reference, and operation features. The final joint head maps a 104-dimensional input through 32 hidden units to four outputs. Its 3,556 trainable parameters describe the final head, not the entire model.
 
@@ -32,4 +32,4 @@ Lower score error and more accurate local attribution are different outcomes. Th
 
 ## Implementation map
 
-See [REPRODUCING.md](REPRODUCING.md) for the module groups and [SOURCE_INDEX.json](SOURCE_INDEX.json) for exact paths. Numerical prediction, local responsibility updates, and scalar correction have separate interfaces.
+See [IMPLEMENTATION.md](IMPLEMENTATION.md) for the module groups, [REPRODUCING.md](REPRODUCING.md) for commands, and [SOURCE_INDEX.json](SOURCE_INDEX.json) for indexed paths. Numerical prediction, local responsibility updates, and scalar correction have separate interfaces.

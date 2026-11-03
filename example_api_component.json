@@ -1,0 +1,21 @@
+{
+  "expected_ids": [
+    "demo_api_1"
+  ],
+  "records": [
+    {
+      "id": "demo_api_1",
+      "status": "valid",
+      "C_messages": [
+        {
+          "role": "system",
+          "content": "Estimate the task score. \u8f93\u51fa\u5355\u4e2a\u6570\u5b57\u69fd0\u81f39\uff1a0\u8868\u793a0%\uff0c9\u8868\u793a100%\uff0c\u63090\u81f39\u7684\u6982\u7387\u5206\u5e03\u8ba1\u7b97\u8fde\u7eed\u671f\u671b\u3002"
+        },
+        {
+          "role": "user",
+          "content": "{\"task\": \"C\", \"subject\": \"synthetic\", \"question_segments\": [\"Implement a search routine.\"], \"confirmed_blueprint\": [], \"confirmed_operations\": [], \"evidence\": [], \"evidence_policy\": \"synthetic\"}"
+        }
+      ]
+    }
+  ]
+}
