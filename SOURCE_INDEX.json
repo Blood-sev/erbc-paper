@@ -1,0 +1,431 @@
+{
+  "snapshot": "2026-11-03",
+  "scope": "Selected paper implementation modules.",
+  "files": [
+    {
+      "path": "factorial_evaluation/bias_contracts.py",
+      "bytes": 2141,
+      "sha256": "f7c3a05c7867473ed1ea786bdd5747c0a88652980071e4d04261965f96e71583"
+    },
+    {
+      "path": "factorial_evaluation/bias_model.py",
+      "bytes": 3309,
+      "sha256": "abf3c0c7942075ff918e80a6b961d73d9ec550c61eb5e2ef6df4e4f578170f30"
+    },
+    {
+      "path": "factorial_training/bias_contracts.py",
+      "bytes": 2141,
+      "sha256": "f7c3a05c7867473ed1ea786bdd5747c0a88652980071e4d04261965f96e71583"
+    },
+    {
+      "path": "factorial_training/bias_model.py",
+      "bytes": 3309,
+      "sha256": "abf3c0c7942075ff918e80a6b961d73d9ec550c61eb5e2ef6df4e4f578170f30"
+    },
+    {
+      "path": "factorial_training/contracts.py",
+      "bytes": 1919,
+      "sha256": "43274ffbbe04ae10c079c327a5eabf9c5d5fb1799ec53c40f5491082b92098bb"
+    },
+    {
+      "path": "factorial_training/retention_objective.py",
+      "bytes": 2823,
+      "sha256": "20f036d95013260b8b98b1e6f48399a2f57bea88c06e05cd5704b15beb7c630c"
+    },
+    {
+      "path": "factorial_training/stage1_training.py",
+      "bytes": 7149,
+      "sha256": "272d8a9f18ee5d36858a47d6270961a7152991337488ff0ae1be08c81f023df8"
+    },
+    {
+      "path": "factorial_training/trainer.py",
+      "bytes": 4241,
+      "sha256": "af4266d2aa3abb107f86d395fade791f3c52eb5b1c5ede7562ab67a809a62829"
+    },
+    {
+      "path": "historical_source/01_数据整理/构建证据精确追溯派生版_v2.py",
+      "bytes": 21333,
+      "sha256": "953771a538d21474b8b036bbebaf55e429d3be70656c2c61765ad59f717e5ec8"
+    },
+    {
+      "path": "historical_source/01_数据整理/读取冻结数据.py",
+      "bytes": 3287,
+      "sha256": "f641c3d686ff0f391ab6c55328441c91ef07c1d1d408026187824100af386314"
+    },
+    {
+      "path": "historical_source/02_蓝图操作KSA/部署代码/35_LoRA_B门控抽取E3数据派生.py",
+      "bytes": 20528,
+      "sha256": "e7ed49a855cd70d0e3074566610d1525c5c95a77b70f2137d54b008b4ae48574"
+    },
+    {
+      "path": "historical_source/02_蓝图操作KSA/部署代码/74_ABC_E3路由正式验证推理.py",
+      "bytes": 53895,
+      "sha256": "f0c05c0e69ed0ad9357477b40538f24fabb56ee658e2af0b8f87c265c0e51589"
+    },
+    {
+      "path": "historical_source/02_蓝图操作KSA/部署代码/91_ABC_E3_C自适应重试Agent运行.py",
+      "bytes": 44830,
+      "sha256": "082d1df05d030545bb754f9d901c940886519de34b110cb6a637df2ecb4ae9fd"
+    },
+    {
+      "path": "historical_source/02_蓝图操作KSA/部署代码/依赖/Qwen3-4B_严格提示与生成工具.py",
+      "bytes": 22039,
+      "sha256": "f59e6925138f72765a45730dfa0ff1da295f1756dfed4e877bc5ef6082a8442b"
+    },
+    {
+      "path": "historical_source/02_蓝图操作KSA/部署代码/依赖/严格Schema与校验/A_知识蓝图输出.schema.json",
+      "bytes": 830,
+      "sha256": "87f865b7d95b403be216e5047a81ccba4b17cd833c446fd5010431b4178e49f8"
+    },
+    {
+      "path": "historical_source/02_蓝图操作KSA/部署代码/依赖/严格Schema与校验/B_粗粒度操作输出.schema.json",
+      "bytes": 2929,
+      "sha256": "16f3f382b6a12a24d8eab9339c646fcc3d3dd5b3c52ffeefc76039e2db1285cc"
+    },
+    {
+      "path": "historical_source/02_蓝图操作KSA/部署代码/依赖/严格Schema与校验/C_细粒度KSA输出.schema.json",
+      "bytes": 6862,
+      "sha256": "154840fafd9c58fc8553f2e83b4c234626636e3b88f35abfcd1a039e7656bfa3"
+    },
+    {
+      "path": "historical_source/02_蓝图操作KSA/部署代码/依赖/严格Schema与校验/严格输出校验.py",
+      "bytes": 11402,
+      "sha256": "5c44a904b62efb87e69edca9f711a05541fd366e444a7c9ec18224452d99846c"
+    },
+    {
+      "path": "historical_source/02_蓝图操作KSA/部署代码/依赖/冻结数据严格Schema适配器.py",
+      "bytes": 20415,
+      "sha256": "39b97bffd628036b89c01263c0ec952179828f5ee61c2094cca241e5efe9a9d3"
+    },
+    {
+      "path": "historical_source/02_蓝图操作KSA/部署代码/依赖/标准检索_词法.py",
+      "bytes": 11595,
+      "sha256": "9f1d10d1fd1b84c542089db185e36cf55f833d996d441091a91e6b0675523eff"
+    },
+    {
+      "path": "historical_source/02_蓝图操作KSA/部署代码/依赖/标准检索_语义.py",
+      "bytes": 29487,
+      "sha256": "090cbea60484fb1901f19106b025189cdf914fbcaabe72ffbc7b63012de884b3"
+    },
+    {
+      "path": "historical_source/03_B数值预测/package232/232_original_four_epoch.py",
+      "bytes": 664,
+      "sha256": "a8b5d15910cacbe73c8106127502079218d69f9362e36d3212c8edd43bd96ecb"
+    },
+    {
+      "path": "historical_source/03_B数值预测/package232/baseline159.py",
+      "bytes": 53624,
+      "sha256": "81f31d7a59c72378a8b46780e773595dea31b2127988f1e0b283d87f27acf78c"
+    },
+    {
+      "path": "historical_source/03_B数值预测/package232/core231.py",
+      "bytes": 5420,
+      "sha256": "81310c587639b6d89366f2ba2cbe06e756f2342557127af47c69f2992f075ab9"
+    },
+    {
+      "path": "historical_source/03_B数值预测/package232/runtime232.py",
+      "bytes": 15645,
+      "sha256": "e7c17a3f9532f0a28c92c9765d1ebfc46565d772f77827b43677ac623426d8d1"
+    },
+    {
+      "path": "historical_source/03_B数值预测/package232/train232.py",
+      "bytes": 14291,
+      "sha256": "26bacd9c99b675e34505b6343f08371cdb6b0835adb936b9e4e971bf8018b31f"
+    },
+    {
+      "path": "historical_source/04_C数值基线/232及247对照/c232_fusion_20261015.py",
+      "bytes": 3249,
+      "sha256": "a4a59ec419182c90a7bce830db5773b13246f277561660daa65fb29aa7c3c5b4"
+    },
+    {
+      "path": "historical_source/04_C数值基线/232及247对照/core.py",
+      "bytes": 7573,
+      "sha256": "6029dda9212ec96c54a2e03627291e8e46dee806254554de51b7774e9a729cc9"
+    },
+    {
+      "path": "historical_source/04_C数值基线/232及247对照/ddp_c_layout_20261014.py",
+      "bytes": 403,
+      "sha256": "8ea83c88804c1986835ec4e8e77ba2230db7e5d2dc6940f940af3a993d5d3917"
+    },
+    {
+      "path": "historical_source/04_C数值基线/232及247对照/ddp_c_train_20261014.py",
+      "bytes": 9824,
+      "sha256": "0cc24be139110afc03092ca81035821181c12833ad9cb2cea5c94f169a718c6f"
+    },
+    {
+      "path": "historical_source/04_C数值基线/232及247对照/prepare.py",
+      "bytes": 6530,
+      "sha256": "5f07e737a3cb2d380a008943332528a5d9c122bc3e2fc6e10e42ee43c6a93870"
+    },
+    {
+      "path": "historical_source/04_C数值基线/NTL/core.py",
+      "bytes": 7573,
+      "sha256": "6029dda9212ec96c54a2e03627291e8e46dee806254554de51b7774e9a729cc9"
+    },
+    {
+      "path": "historical_source/04_C数值基线/NTL/ddp_c_layout_20261014.py",
+      "bytes": 403,
+      "sha256": "8ea83c88804c1986835ec4e8e77ba2230db7e5d2dc6940f940af3a993d5d3917"
+    },
+    {
+      "path": "historical_source/04_C数值基线/NTL/ddp_c_train_20261014.py",
+      "bytes": 9547,
+      "sha256": "7c823814aa09542c5aba7e29ddef64054cea3a983aa9e1a4161984154bca6391"
+    },
+    {
+      "path": "historical_source/04_C数值基线/NTL/prepare.py",
+      "bytes": 6530,
+      "sha256": "5f07e737a3cb2d380a008943332528a5d9c122bc3e2fc6e10e42ee43c6a93870"
+    },
+    {
+      "path": "historical_source/04_C数值基线/R2CCP/core.py",
+      "bytes": 7573,
+      "sha256": "6029dda9212ec96c54a2e03627291e8e46dee806254554de51b7774e9a729cc9"
+    },
+    {
+      "path": "historical_source/04_C数值基线/R2CCP/ddp_c_layout_20261014.py",
+      "bytes": 403,
+      "sha256": "8ea83c88804c1986835ec4e8e77ba2230db7e5d2dc6940f940af3a993d5d3917"
+    },
+    {
+      "path": "historical_source/04_C数值基线/R2CCP/ddp_c_train_20261014.py",
+      "bytes": 10018,
+      "sha256": "4f078e2e65b5300c84682c119b6b1129bf2e56e17c80000fc332de8fd040ccd7"
+    },
+    {
+      "path": "historical_source/04_C数值基线/R2CCP/prepare.py",
+      "bytes": 6530,
+      "sha256": "5f07e737a3cb2d380a008943332528a5d9c122bc3e2fc6e10e42ee43c6a93870"
+    },
+    {
+      "path": "historical_source/04_C数值基线/R2CCP/r2ccp_c_method_20261014.py",
+      "bytes": 1753,
+      "sha256": "4a9d7ef7f89a4507cdf480bdf419e486ebe3b72897bd3f4f96c5cc12b359d4e9"
+    },
+    {
+      "path": "historical_source/04_C数值基线/RAFT/core.py",
+      "bytes": 7573,
+      "sha256": "6029dda9212ec96c54a2e03627291e8e46dee806254554de51b7774e9a729cc9"
+    },
+    {
+      "path": "historical_source/04_C数值基线/RAFT/ddp_c_layout_20261014.py",
+      "bytes": 403,
+      "sha256": "8ea83c88804c1986835ec4e8e77ba2230db7e5d2dc6940f940af3a993d5d3917"
+    },
+    {
+      "path": "historical_source/04_C数值基线/RAFT/ddp_c_train_20261014.py",
+      "bytes": 9672,
+      "sha256": "c7f710aabb0e9072045bff34ef2dbb6b484dc02a3a8a63155e20ba36a1c049a4"
+    },
+    {
+      "path": "historical_source/04_C数值基线/RAFT/prepare.py",
+      "bytes": 6530,
+      "sha256": "5f07e737a3cb2d380a008943332528a5d9c122bc3e2fc6e10e42ee43c6a93870"
+    },
+    {
+      "path": "historical_source/04_C数值基线/RAFT/raft_c_method_20261014.py",
+      "bytes": 671,
+      "sha256": "5ee452de1510fa2b0936e712981d97fbc7298ad0d5584ef92b1dfe4dd2d5b494"
+    },
+    {
+      "path": "historical_source/04_C数值基线/TRACT/core.py",
+      "bytes": 7573,
+      "sha256": "6029dda9212ec96c54a2e03627291e8e46dee806254554de51b7774e9a729cc9"
+    },
+    {
+      "path": "historical_source/04_C数值基线/TRACT/ddp_c_layout_20261014.py",
+      "bytes": 403,
+      "sha256": "8ea83c88804c1986835ec4e8e77ba2230db7e5d2dc6940f940af3a993d5d3917"
+    },
+    {
+      "path": "historical_source/04_C数值基线/TRACT/ddp_c_train_20261014.py",
+      "bytes": 9560,
+      "sha256": "6428a82764dbe1327c83d82c044d272160bf4af09e772333fbe990dda756ac96"
+    },
+    {
+      "path": "historical_source/04_C数值基线/TRACT/prepare.py",
+      "bytes": 6530,
+      "sha256": "5f07e737a3cb2d380a008943332528a5d9c122bc3e2fc6e10e42ee43c6a93870"
+    },
+    {
+      "path": "historical_source/04_C数值基线/TRACT/raft_c_method_20261014.py",
+      "bytes": 671,
+      "sha256": "5ee452de1510fa2b0936e712981d97fbc7298ad0d5584ef92b1dfe4dd2d5b494"
+    },
+    {
+      "path": "historical_source/04_C数值基线/TRACT/tract_c_method_20261014.py",
+      "bytes": 9701,
+      "sha256": "258d3af7a2f68a0f41886f547633563deb29470bfa93c2941f867faf24281dab"
+    },
+    {
+      "path": "historical_source/current_project/运行输出/安装暂存/C_ANCHOR_BIAS_DECOUPLING_CPU_20261020_SAFE/bias_contracts.py",
+      "bytes": 2141,
+      "sha256": "f7c3a05c7867473ed1ea786bdd5747c0a88652980071e4d04261965f96e71583"
+    },
+    {
+      "path": "historical_source/current_project/运行输出/安装暂存/C_ANCHOR_BIAS_DECOUPLING_CPU_20261020_SAFE/bias_model.py",
+      "bytes": 3309,
+      "sha256": "abf3c0c7942075ff918e80a6b961d73d9ec550c61eb5e2ef6df4e4f578170f30"
+    },
+    {
+      "path": "historical_source/current_project/运行输出/安装暂存/C_ANCHOR_BIAS_DECOUPLING_CPU_20261020_SAFE/training.py",
+      "bytes": 7149,
+      "sha256": "272d8a9f18ee5d36858a47d6270961a7152991337488ff0ae1be08c81f023df8"
+    },
+    {
+      "path": "historical_source/current_project/运行输出/安装暂存/C_BRANCH_AMPLITUDE_CPU_20261020_SAFE/training.py",
+      "bytes": 12424,
+      "sha256": "0d3f43187c0bbcc32af2ab71cd6226d65e0cf4a93687a24c406f3d06f336c93f"
+    },
+    {
+      "path": "historical_source/current_project/运行输出/安装暂存/C_DIRECT_STRUCTURED_READOUT_CPU_20261020_SAFE/readout.py",
+      "bytes": 4839,
+      "sha256": "65d1275309636e76bbff7d6e632d3d8d154ee77cee5f76e18b26b8507889e644"
+    },
+    {
+      "path": "historical_source/current_project/运行输出/安装暂存/C_DIRECT_STRUCTURED_READOUT_CPU_20261020_SAFE/training.py",
+      "bytes": 9773,
+      "sha256": "ee931611343f7fb9059bcb7c23dcb4d3406621f01b56704b6fc58dcbc05bbc2b"
+    },
+    {
+      "path": "historical_source/current_project/运行输出/安装暂存/C_DIRECT_STRUCTURED_READOUT_OFFICIAL_CPU_20261020_SAFE/states.py",
+      "bytes": 3803,
+      "sha256": "c5fef215601baf1d0b4a7cc14b39367e96f7dcf5470276d7307e0a4e078f3d46"
+    },
+    {
+      "path": "historical_source/current_project/运行输出/安装暂存/C_EVIDENCE_ROLE_REPAIR_CPU_20261020_SAFE/evidence_head.py",
+      "bytes": 4492,
+      "sha256": "dc2008e622cddee9ff58615c2880bacfa0a7ccfe26df39c83b7cf6ae1bd2a152"
+    },
+    {
+      "path": "historical_source/current_project/运行输出/安装暂存/C_EVIDENCE_ROLE_REPAIR_CPU_20261020_SAFE/features.py",
+      "bytes": 5885,
+      "sha256": "91b34e295f10543434f97ef919fdd7cc2f86fcadff6fa2202a52e2e00f7d0f1e"
+    },
+    {
+      "path": "historical_source/current_project/运行输出/安装暂存/C_EVIDENCE_ROLE_REPAIR_CPU_20261020_SAFE/training.py",
+      "bytes": 8129,
+      "sha256": "567323a1db4128d1c8e7b53427eb9024b92910d584a03d47e5bb3b27c96946d1"
+    },
+    {
+      "path": "historical_source/current_project/运行输出/安装暂存/C_EVIDENCE_TRANSPORT_RETENTION_SINGLE_20261018_SAFE/algorithm.py",
+      "bytes": 7979,
+      "sha256": "8f31de0446f50253dda3c03616fc916d5f639906ef58ca9feb247fdf21c7dcb7"
+    },
+    {
+      "path": "historical_source/current_project/运行输出/安装暂存/C_EVIDENCE_TRANSPORT_RETENTION_SINGLE_20261018_SAFE/core.py",
+      "bytes": 6982,
+      "sha256": "b5541b2b8d67f6b803e2813a5b22442bcc0903b23888171f0ac525f8e128ec70"
+    },
+    {
+      "path": "historical_source/current_project/运行输出/安装暂存/C_FINAL_BIAS_RETENTION_CPU_20261021_SAFE/refinement.py",
+      "bytes": 2084,
+      "sha256": "05cda31d288ceff9f7746cc3380187aa8a2b6be63a397a23baff192149d602b4"
+    },
+    {
+      "path": "historical_source/current_project/运行输出/安装暂存/C_JOINT_CONTEXT_CPU_20261020_SAFE/contracts.py",
+      "bytes": 2347,
+      "sha256": "fa4969fd791b4438908314a2bb911a97743511743cec3ef32ec795b9b4e34ca3"
+    },
+    {
+      "path": "historical_source/current_project/运行输出/安装暂存/C_JOINT_CONTEXT_CPU_20261020_SAFE/joint.py",
+      "bytes": 5169,
+      "sha256": "b220506b791b899a60538e440b2f73aa60760832888414ed07bbcdda632e58af"
+    },
+    {
+      "path": "historical_source/current_project/运行输出/安装暂存/C_JOINT_MASS_CPU_20261020_SAFE/model.py",
+      "bytes": 4484,
+      "sha256": "ce99ed997cc85d91eed7594ab92454110edcef85a0a41e44537ca3abc9eb6956"
+    },
+    {
+      "path": "historical_source/current_project/运行输出/安装暂存/C_JOINT_MASS_CPU_20261020_SAFE/trainer.py",
+      "bytes": 6307,
+      "sha256": "4e88e93d14955bef14060328c85c156500615c62c0d8e727f97f1c5538ed245d"
+    },
+    {
+      "path": "historical_source/current_project/运行输出/安装暂存/C_MASS_SCALE_DECOUPLING_CPU_20261020_SAFE/allocation.py",
+      "bytes": 5414,
+      "sha256": "1ace7119eb77477b7d6b7c2f8c257d611ecb6bfd0c4e52a39c2859c9034fdf08"
+    },
+    {
+      "path": "historical_source/current_project/运行输出/安装暂存/C_MASS_SCALE_DECOUPLING_CPU_20261020_SAFE/retained_routing.py",
+      "bytes": 8526,
+      "sha256": "fb4dddd78a1b5898ed0d4362117b9696abbdd4fa97e37b9122a8cf3edc3957e0"
+    },
+    {
+      "path": "historical_source/current_project/运行输出/安装暂存/C_MASS_SCALE_DECOUPLING_CPU_20261020_SAFE/training.py",
+      "bytes": 14809,
+      "sha256": "41c8b7f7215dcbe4f92092c850a50dcf33c748a8bc04d7346b5c25b374f743ef"
+    },
+    {
+      "path": "historical_source/current_project/运行输出/安装暂存/C_SELECTIVE_ROUTING_CPU_20261020_SAFE/routing.py",
+      "bytes": 8526,
+      "sha256": "fb4dddd78a1b5898ed0d4362117b9696abbdd4fa97e37b9122a8cf3edc3957e0"
+    },
+    {
+      "path": "historical_source/current_project/运行输出/安装暂存/C_SELECTIVE_ROUTING_CPU_20261020_SAFE/training.py",
+      "bytes": 13514,
+      "sha256": "ee5f611a38bdc9960df293328a13541f7208f7fdb4d08e45d41b3eb8965041b5"
+    },
+    {
+      "path": "historical_source/current_project/运行输出/安装暂存/C_SUCCESS_REFERENCE_CPU_20261020_SAFE/refinement.py",
+      "bytes": 2823,
+      "sha256": "20f036d95013260b8b98b1e6f48399a2f57bea88c06e05cd5704b15beb7c630c"
+    },
+    {
+      "path": "historical_source/current_project/运行输出/安装暂存/C_SUCCESS_REFERENCE_CPU_20261020_SAFE/trainer.py",
+      "bytes": 5809,
+      "sha256": "66792635f9a13e576eb9e09632bf4f5dc1c5a42a88272f4aa86e2c7317d66814"
+    },
+    {
+      "path": "historical_source/current_project/运行输出/安装暂存/C_TRANSPORT_BEST_OFFICIAL_CPU_20261018_SAFE/core.py",
+      "bytes": 6982,
+      "sha256": "b5541b2b8d67f6b803e2813a5b22442bcc0903b23888171f0ac525f8e128ec70"
+    },
+    {
+      "path": "historical_source/current_project/运行输出/安装暂存/C_TRANSPORT_BEST_OFFICIAL_CPU_20261018_SAFE/model_v1.py",
+      "bytes": 7409,
+      "sha256": "491d1852bf496ea12b38e77b7dc0543bc29788079cb9b308e30bf72aa3c6a87a"
+    },
+    {
+      "path": "historical_source/current_project/运行输出/安装暂存/C_TRANSPORT_BEST_OFFICIAL_CPU_20261018_SAFE/model_v2.py",
+      "bytes": 7979,
+      "sha256": "8f31de0446f50253dda3c03616fc916d5f639906ef58ca9feb247fdf21c7dcb7"
+    },
+    {
+      "path": "historical_source/current_project/运行输出/安装暂存/C_TRANSPORT_LAST_ROBUST_CPU_20261018_SAFE/algorithm.py",
+      "bytes": 7979,
+      "sha256": "8f31de0446f50253dda3c03616fc916d5f639906ef58ca9feb247fdf21c7dcb7"
+    },
+    {
+      "path": "historical_source/current_project/运行输出/安装暂存/C_TRANSPORT_LAST_ROBUST_CPU_20261018_SAFE/core.py",
+      "bytes": 6982,
+      "sha256": "b5541b2b8d67f6b803e2813a5b22442bcc0903b23888171f0ac525f8e128ec70"
+    },
+    {
+      "path": "historical_source/current_project/运行输出/安装暂存/C_TRANSPORT_LAST_ROBUST_CPU_20261018_SAFE/robust.py",
+      "bytes": 3369,
+      "sha256": "7bb73f2cfae54ff316114866435a3b066b0a91ff1e218fde6ec23330db9c385b"
+    },
+    {
+      "path": "historical_source/current_project/运行输出/安装暂存/C_TRANSPORT_ORDINAL_RESPONSIBILITY_CPU_20261018_SAFE/algorithm.py",
+      "bytes": 7979,
+      "sha256": "8f31de0446f50253dda3c03616fc916d5f639906ef58ca9feb247fdf21c7dcb7"
+    },
+    {
+      "path": "historical_source/current_project/运行输出/安装暂存/C_TRANSPORT_ORDINAL_RESPONSIBILITY_CPU_20261018_SAFE/core.py",
+      "bytes": 6982,
+      "sha256": "b5541b2b8d67f6b803e2813a5b22442bcc0903b23888171f0ac525f8e128ec70"
+    },
+    {
+      "path": "historical_source/current_project/运行输出/安装暂存/C_TRANSPORT_ORDINAL_RESPONSIBILITY_CPU_20261018_SAFE/correction.py",
+      "bytes": 4929,
+      "sha256": "23a2c0eb737491afa0fc049a4a7bc318382e6afe092a9db5d68341e662a6ff6c"
+    },
+    {
+      "path": "historical_source/current_project/运行输出/安装暂存/C_TRANSPORT_ORDINAL_RESPONSIBILITY_CPU_20261018_SAFE/refine.py",
+      "bytes": 10022,
+      "sha256": "b6fd3672481d9c7e0792e6f14da3250ed2fe9fbb2ef47c70ece03b91b505b278"
+    }
+  ]
+}

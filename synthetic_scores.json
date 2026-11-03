@@ -1,0 +1,26 @@
+{
+  "expected_ids": [
+    "demo-a",
+    "demo-b",
+    "demo-c"
+  ],
+  "records": [
+    {
+      "id": "demo-a",
+      "status": "valid",
+      "target": 0.5,
+      "prediction": 0.5
+    },
+    {
+      "id": "demo-b",
+      "status": "valid",
+      "target": 0.3,
+      "prediction": 0.5
+    },
+    {
+      "id": "demo-c",
+      "status": "blocked",
+      "target": 0.7
+    }
+  ]
+}

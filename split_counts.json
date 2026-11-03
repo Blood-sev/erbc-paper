@@ -1,0 +1,39 @@
+{
+  "annotated": 1403,
+  "overlength_excluded": 8,
+  "retained": 1395,
+  "original_training_pool": 1085,
+  "original_validation": 148,
+  "separate_test": 162,
+  "group_split_before_admission": {
+    "train": 927,
+    "development": 158
+  },
+  "knowledge_exclusions": {
+    "train": 2,
+    "development": 2
+  },
+  "original_C_collections": {
+    "train": 925,
+    "development": 156,
+    "evaluation": 148,
+    "total": 1229
+  },
+  "evaluation_148": {
+    "total": 148,
+    "cs": 85,
+    "valid": 141,
+    "valid_cs": 80,
+    "blocked": 7,
+    "blocked_cs": 5
+  },
+  "frozen_check_162": {
+    "total": 162,
+    "cs": 100,
+    "valid": 154,
+    "valid_cs": 93,
+    "blocked": 8,
+    "blocked_cs": 7
+  },
+  "membership_included": false
+}
