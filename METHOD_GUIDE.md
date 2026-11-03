@@ -30,8 +30,6 @@ The frozen evidence state supplies responsibility distributions, contribution we
 
 Lower score error and more accurate local attribution are different outcomes. The factorial experiment measures the branches' effects on final prediction; pMAE improvement alone does not establish better attribution for every operation.
 
-
-
 ## Implementation map
 
 See [REPRODUCING.md](REPRODUCING.md) for the module groups and [SOURCE_INDEX.json](SOURCE_INDEX.json) for exact paths. Numerical prediction, local responsibility updates, and scalar correction have separate interfaces.

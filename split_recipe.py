@@ -1,4 +1,4 @@
-"""Recorded-group split rule; no dataset or real membership is bundled.
+"""Student-group split using the recorded hash rule.
 
 Apply to the original 1,085-unit non-test pool before the four KU exclusions.
 Supply local JSONL records with metadata.subject and metadata.student_id.
@@ -37,7 +37,7 @@ def assignments(records):
 if __name__ == '__main__':
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('input',type=Path)
-    parser.add_argument('output',type=Path,help='Local private membership output; do not commit it')
+    parser.add_argument('output',type=Path,help='Path for the generated group assignments (must not already exist)')
     args=parser.parse_args()
     records=[json.loads(line) for line in args.input.read_text(encoding='utf-8-sig').splitlines() if line.strip()]
     with args.output.open('x',encoding='utf8') as stream:
